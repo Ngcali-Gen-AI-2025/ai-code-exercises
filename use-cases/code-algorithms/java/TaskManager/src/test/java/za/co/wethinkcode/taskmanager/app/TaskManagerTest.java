@@ -16,6 +16,11 @@ import za.co.wethinkcode.taskmanager.model.TaskPriority;
 import za.co.wethinkcode.taskmanager.model.TaskStatus;
 import za.co.wethinkcode.taskmanager.storage.TaskStorage;
 
+/**
+ * The TaskManager class provides high-level operations for managing tasks,
+ * including creation, updates, deletion, filtering, and reporting.
+ * It acts as a service layer between the CLI/user interface and the task storage.
+ */
 public class TaskManagerTest {
 
     private final static String test_storage_file = "test_storage.json";
